@@ -16,21 +16,7 @@ export default {
   setup() {
 
 
-    // $.ajax({
-    //   url: "http://localhost:3000/user/account/register/",
-    //   type: "post",
-    //   data: {
-    //     username: "c",
-    //     password: "pc",
-    //     confirmedPassword: "pc",
-    //   },
-    //   success(resp) {
-    //     console.log(resp);
-    //   },
-    //   error(resp) {
-    //     console.log(resp);
-    //   }
-    // });
+
   }
 }
 </script>
