@@ -43,8 +43,7 @@ public class AddServiceImpl implements AddService {
         }
 
         if (description == null || description.length() == 0) {
-            map.put("error_message", "这个用户很懒，什么也没留下");
-            return map;
+            description = "这个用户很懒，什么也没留下";
         }
 
         if (description != null && description.length() > 300) {
