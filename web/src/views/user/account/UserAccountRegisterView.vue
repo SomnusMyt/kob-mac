@@ -57,7 +57,6 @@ export default {
                         error_message.value = resp.error_message;
                     }
                 },
-
             });
         }
 
