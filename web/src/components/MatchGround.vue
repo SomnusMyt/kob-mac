@@ -37,8 +37,8 @@
 
 <script>
 import { ref } from 'vue'
-import { useStore } from 'vuex'
-import $ from 'jquery'
+import { useStore } from 'vuex';
+import $ from 'jquery';
 
 export default {
     setup() {
